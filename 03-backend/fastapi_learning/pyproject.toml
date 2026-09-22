@@ -1,17 +1,9 @@
 [project]
-name = "fastapi_learing"
+name = "fastapi_learning"
 version = "0.1.0"
-description = "Add your description here"
+description = "FastAPI learning examples"
 readme = "README.md"
-authors = [
-    { name = "ljf", email = "ljf18207338522@163.com" }
-]
 requires-python = ">=3.13"
-dependencies = []
-
-[project.scripts]
-fastapi = "fastapi:main"
-
-[build-system]
-requires = ["uv_build>=0.12.17,<0.13.0"]
-build-backend = "uv_build"
+dependencies = [
+    "fastapi[standard]",
+]
