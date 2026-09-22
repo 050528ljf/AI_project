@@ -7,10 +7,10 @@ from langchain_core.runnables import RunnablePassthrough
 
 load_dotenv()
 llm = ChatOpenAI(
-    model="deepseek-flash",
+    model="GLM-5.3",
     temperature=0.9,
-    api_key=os.getenv("DeepSeek_API_KEY"),
-    base_url="https://api.deepseek.com"
+    api_key=os.getenv("GLM_API_KEY"),
+    base_url=os.getenv("GLM_base_url")
 )
 
 parser = StrOutputParser()
@@ -55,6 +55,8 @@ AI tools are becoming indispensable in modern workflows...
 
 
 result = chain.invoke({"article": article})
+
+print(result)
 
 print("翻译：")
 print(result["translate"])
