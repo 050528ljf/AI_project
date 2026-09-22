@@ -1,0 +1,97 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# =========================
+# uv
+# =========================
+
+# uv.lock 通常建议提交，不要忽略
+# uv.lock
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# API keys
+*.key
+*.pem
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Data
+# =========================
+
+# Large/local datasets
+data/
+datasets/
+
+# Model checkpoints
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# =========================
+# Node / Frontend
+# =========================
+
+node_modules/
+dist/
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.bak
