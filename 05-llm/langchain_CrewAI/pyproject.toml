@@ -1,0 +1,12 @@
+[project]
+name = "langchain-learning"
+version = "0.1.0"
+description = "LangChain learning demos"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crewai>=1.15.22",
+    "langchain>=1.4.2",
+    "langchain-openai>=1.6.3",
+    "python-dotenv>=1.2.3",
+]
